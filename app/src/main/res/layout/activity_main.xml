@@ -13,17 +13,4 @@
         android:text="Hello"
         android:padding="20sp"/>
 
-    <TextView
-        android:id="@+id/textViewTranslatedText2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bye"
-        android:padding="20sp"/>
-
-    <TextView
-        android:id="@+id/textViewTranslatedText3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:padding="20sp"/>
 </LinearLayout>

@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         tvTranslated = findViewById(R.id.textViewTranslatedText);
 
         registerForContextMenu(tvTranslated);
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
             default:
                 tvTranslated.setText("Something went wrong.");
-                break;  
+                break;
         }
 
         return super.onContextItemSelected(item);
